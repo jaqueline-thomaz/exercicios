@@ -95,7 +95,7 @@ section {
 }
 
 #img {
-    background-image: url("/exercicio4/style/estadio.jpg");
+    background-image: url("./estadio.jpg");
     background-size: cover;
     background-position: 100%;
     margin: 2.7vh;
@@ -132,7 +132,7 @@ section p {
 }
 
 aside {
-    background-image: url(./anuncio.jpg);
+    background-image: url("./anuncio.jpg");
     float: left;
     width: 20%;
     height: 14em;
