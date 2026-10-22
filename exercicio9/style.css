@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    background-color: rgb(188, 129, 243);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    text-shadow: 0 2px 1px rgb(3, 138, 156);
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#hero {
+    height: 90vh;
+    background-color: rgba(173, 223, 230, 0.61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(67, 23, 88);
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(67, 23, 88);
+    color: #f2f2f2;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(3, 138, 156);
+    transition: 0.5s ease;
+}
+
+#cards {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 70px;
+    background-color: rgba(173, 223, 230, 0.815);
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 50%;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(3, 138, 156);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    #cards {
+        align-items: center;
+        flex-direction: column;
+    }
+}

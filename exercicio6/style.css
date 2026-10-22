@@ -1,0 +1,13 @@
+.cartao {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 16px auto;
+    box-sizing: border-box;
+}
+
+/*
+1- 300+20+20+2(width+padding dos 2 lados+borda)= 344px
+2- 300-40-4= 256px
+3- os px sao quanto de margem terá em cima e embaixo e o auto ajuda a distribuir os valores adicionados igual por igual
+*/

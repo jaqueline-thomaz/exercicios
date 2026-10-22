@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 10%;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        align-items: center;
+        flex-direction: column;
+    }
+}
